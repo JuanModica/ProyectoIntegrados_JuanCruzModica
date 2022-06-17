@@ -7,16 +7,25 @@ div{
     text-align: center;
 }
 
+#fotoperfil {
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+
 #nombre {
+    text-align: center;
     font-weight: bold;
+}
+
+#profesion {
+    font-size: 25px;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {
     #fotoperfil{
-        position: absolute;
         width: 45%;
-        border-radius: 100%;
-        box-shadow:  3px 3px 3px 3px gray;
         left: 28%;
         bottom: 120px;
     }
@@ -28,10 +37,7 @@ div{
   
   @media only screen and (min-width: 600px) {
       #fotoperfil {
-          position: absolute;
           width: 35%;
-          border-radius: 100%;
-          box-shadow: 3px 3px 3px 3px gray;
           left: 10%;
           bottom: 120px;
       }
@@ -43,34 +49,28 @@ div{
   
   @media only screen and (min-width: 768px) {
       #fotoperfil {
-          position: absolute;
           width: 35%;
-          border-radius: 100%;
-          box-shadow: 3px 3px 3px 3px gray;
           left: 7%;
       }
   } 
   
   @media only screen and (min-width: 992px) {
       #fotoperfil {
-        position: absolute;
         width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px 3px gray;
         left: 7%;
       }
   } 
   
   @media only screen and (min-width: 1200px) {
     #fotoperfil {
-        position: absolute;
-        width: 25%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px 3px gray;
-        left: 7%;
+        width: 20%;
+        left: 5%;
       }
       #nombre {
-          margin-right: 30%;
+          margin-right: 45%;
+      }
+      #profesion {
+          margin-right: 45%;
       }
   }
 
