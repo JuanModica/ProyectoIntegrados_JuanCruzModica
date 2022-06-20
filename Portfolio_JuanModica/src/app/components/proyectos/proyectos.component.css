@@ -9,11 +9,9 @@
 
 .parte1, .parte2 {
     display: inline-block;
-    text-align: justify;
+    vertical-align: text-top
 }
 
 .img-proyecto {
-    width: 100%;
-    height: auto;
     box-shadow: 10px 10px 30px rgb(0, 0, 0);
 }
