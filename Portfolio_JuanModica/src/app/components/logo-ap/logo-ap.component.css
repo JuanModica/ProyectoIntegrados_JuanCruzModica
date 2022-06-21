@@ -1,3 +1,29 @@
 #logoAP {
     width: 150px;
 }
+
+img {
+    width: 40px;
+    margin: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    border-width: 2px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .redes {
+        display: flex;
+        align-items: center;
+    }
+}

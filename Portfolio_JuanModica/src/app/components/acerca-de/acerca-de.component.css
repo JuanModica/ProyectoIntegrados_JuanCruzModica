@@ -25,9 +25,9 @@ div{
 
 @media only screen and (max-width: 600px) {
     #fotoperfil{
-        width: 45%;
-        left: 28%;
-        bottom: 120px;
+        width: 50%;
+        left: 26%;
+        bottom: 1px;
     }
     #nombre {
         font-size: 30px;
@@ -37,9 +37,9 @@ div{
   
   @media only screen and (min-width: 600px) {
       #fotoperfil {
-          width: 35%;
+          width: 25%;
           left: 10%;
-          bottom: 120px;
+          bottom: 5px;
       }
       #nombre {
           font-size: 35px;
@@ -49,14 +49,14 @@ div{
   
   @media only screen and (min-width: 768px) {
       #fotoperfil {
-          width: 35%;
+          width: 25%;
           left: 7%;
       }
   } 
   
   @media only screen and (min-width: 992px) {
       #fotoperfil {
-        width: 30%;
+        width: 25%;
         left: 7%;
       }
   } 
