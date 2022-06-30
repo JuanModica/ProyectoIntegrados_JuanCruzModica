@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/Portfolio_JuanModica/src/app/components/acerca-de/acerca-de.component.html"
+    "livePreview.defaultPreviewPath": "/Portfolio_JuanModica/src/app/components/acerca-de/acerca-de.component.html",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
