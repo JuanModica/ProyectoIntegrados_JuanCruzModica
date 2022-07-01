@@ -8,9 +8,15 @@
 
 .parte1, .parte2 {
     display: inline-block;
-    vertical-align: text-top
+    vertical-align: text-top;
 }
 
 .img-proyecto {
     box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 600px){
+    h1 {
+        text-align: center;
+    }
 }

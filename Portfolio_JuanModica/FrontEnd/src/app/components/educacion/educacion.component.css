@@ -2,3 +2,43 @@
     padding: 40px;
 }
 
+ul {
+    list-style-type:none;
+}
+li {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(31, 31, 31);
+}
+
+h3 {
+    font-size: 20px;
+}
+.container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    h1{
+        text-align: center;
+    }
+
+    li {
+        padding: 10px;
+        margin-right: 70px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
